@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录-松湖塑机 CRM</title>
+		<meta  charset="utf-8" />
+		<link rel="Shortcut Icon" type="images/x-icon" href="code/images/favicon.png">
+		<link rel="stylesheet" type="text/css" href="code/css/login.css" />
+	
+		<script type="text/javascript">
+//javascript验证输入是否为空
+			function check(){
+		 		name=document.getElementById("username").value;
+		 		userpwd=document.getElementById("pwd").value;
+		 		if(name==''){
+		 			alert("用户名不能为空");
+					username.focus();
+		 			return false;
+				 }
+				if(userpwd==''){
+		 			alert("密码不能为空");
+		 			pwd.focus();
+		 			return false;
+				}				
+           		return true;
+			}
+		</script>
+	</head>	
+	<body>
+		<header>
+<!-- 头部logo -->
+			<div id="logo">
+				<a title="松湖塑料机械有限公司" target="_blank" href="http://www.songhujx.com/index.html">
+					<img src="code/images/logo.gif">
+				</a>
+			</div>
+			<div id="intro">
+				<a  title="松湖塑料机械有限公司" target="_blank" href="http://www.songhujx.com/index.html">
+					用户至上的塑料机械设计理念，行业领先的专业技术，精益求精的生产和品质检验流程
+				</a>
+			</div>
+		</header>
+<!-- 表单form -->	
+		<section id="lg">			
+			<section id="lg_header">
+				<h2>登录</h2>
+			</section>
+	
+			<section id="myform">
+				<form action="code/index.html" method="post" >
+					<select>
+						<option id="manager">管理员</option>
+						<option id="staff">员　工</option>
+					</select>
+					<br/>
+
+					<p>用户名　<input type="text" id="username" size="10"></p>
+					<p>密　码　<input type="password" id="pwd" size="20"></p>
+
+					<p id="button">
+						<input type="submit" onclick="return check()" value="登录"/>
+						<input type="reset" value="重置"/>
+					</p>
+				</form>
+	
+
+		
+			</section>	
+		</section>
+		<footer>
+			<p>2014 东莞市 <a title="松湖塑机" target="_blank" href="http://www.songhujx.com/index.html">松湖塑料机械有限公司</a> © 版权所有</p>
+		</footer>
+	</body>
+</html>

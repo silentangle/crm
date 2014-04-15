@@ -1,0 +1,117 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body,h1,p,ul,li,form{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+body{
+	font-family: Verdana,Arial,'宋体';
+	font-size: 12px;
+}
+/*header 样式*/
+header{ 
+	background: -moz-linear-gradient(center top , #fff 0%, #FAFAFA 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-bottom: 2px;
+	height: 65px;
+	border-bottom:2px solid #ddd;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+	float: left;
+	width: 50%;
+}
+#intro{
+	float: left;
+	height: 64px;
+}
+#intro a{
+	line-height: 64px;
+	text-decoration: none;
+	color: #777;
+	text-shadow: 1 2px 0 #FFFFFF;
+}
+#intro a:hover{
+	color: #313131;
+}
+#logo img:hover{
+	border-top: 1px solid #fff;
+	border-left: 3px solid #eee;
+	border-right: 2px solid #eee;
+
+}
+a img{
+	border: 0 none;
+}
+#intro{
+	width:50%;
+}
+
+/*登录框*/
+#lg {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 7% auto;
+    width: 570px;
+    border: 1px solid #DDDDDD;
+    border-radius: 70px 10px;
+    box-shadow: 10 10 6px #eee;
+    overflow: hidden;
+}
+#lg_header {
+  	background: url("../images/login_head.gif");-moz-linear-gradient(center top , #0F89E0 0%, #3C4049 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+ 	padding: 2px 0px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+#lg_header,#myform{
+	clear: both;
+	width: 570px;
+	border:1px solid #ddd;
+}
+#myform{
+	background: url("../images/login.gif") no-repeat scroll;
+	height: 320px;
+	box-shadow: 0px 10px 3px #ddd;
+}
+#myform select{
+	margin: 180px auto 10px;
+	margin-left: 60px;
+}
+#myform p{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+input{
+	width: 150px;
+}
+#button{
+	margin-left: 33px;
+}
+#button input{
+    height: 25px;
+    width: 50px;
+	margin-left: 33px;
+
+}
+footer{
+	margin: 50px auto ;
+	text-align:center;
+	border-top:2px solid #ddd;
+}
+footer p{
+	padding:10px;
+}
+footer a{
+	color: #4083B8;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #5caae6;
+	text-decoration: none;
+}
