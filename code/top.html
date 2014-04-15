@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>客户关系管理系统</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<style type="text/css">
+
+		</style>
+
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript">
+  
+  	  	function logout(){
+      		if (confirm("亲，下回见哦！"))
+      		top.location = "login.html";
+       		return false;
+  		 }
+
+		</script>
+	</head>
+
+	<body>
+<!-- 头部logo -->	
+		<div id="tip">今天是 月 日，欢迎您 经理(管理员）&nbsp;&nbsp; <a onclick="logout()" href="javascript:window.opener=null;%20window.close();">退出系统</a>
+		</div>
+		<div id="header">
+			<a href="index.html"  target="_top" title="松湖塑机-客户关系管理系统">客户关系管理系统</a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+		
+		html{
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+		}
+		body,h2,p,ul,li{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		body{
+			text-align: center;
+			height: 100%;
+			margin: 0 10px;
+			min-width: 960px;
+			overflow: hidden;
+			font-family: Verdana,Arial,'宋体'
+		}
+	
+/*头部LOGO*/
+		#header {
+			background: url("../images/logo.gif") no-repeat scroll;
+			margin-bottom: 3px;
+			height: 65px;
+			font-family:'黑体';
+			font-size:33px;
+			font-weight:bold;
+			color: black;	
+			border-bottom: 2px solid #ddd;
+		}
+		#header a,#header a:hover{
+			display: inline-block;
+			float: left;
+			width: 100%;
+			height: 64px;
+			text-decoration: none;
+			line-height: 64px;
+			text-indent: 100px;
+			color: black;
+		}
+/*头部，当前用户及退出系统*/
+		#tip{
+			margin-top: 3px;
+			text-align: right;
+			font-size: 12px;
+		}
+		#tip a{
+			color: #4803D8;
+		}
+/*左侧菜单栏*/
+	
+		#left{
+			float: left;
+			width: 150px;
+			height: 100%;
+			margin-bottom: 3px;
+			padding: 10px 10px 0 10px;
+			background: #06c;
+			font-size: 12px;
+			color: white;
+			text-align: left;
+		}
+		#left h2,#left li{
+			font-size: 12px;
+			font-weight: normal;
+			clear: both;
+		}
+	
+		#leftMenu{
+			margin-left: 18px;
+		}
+		.list{
+			display: none;
+		}
+
+/*右侧内容*/
+	
+/*底部声明*/
+		#footer{
+			clear: both;
+			width: 100%;
+			text-align:center;
+			margin-top: 3px;
+			padding:6px;
+			font-size:12px;
+			border-top:solid 2px #ddd;
+		}
+		#footer a{
+			color: #000;
+			text-decoration: none;
+		}
+		#footer a:hover{
+			text-decoration: underline;
+		}
